@@ -1,17 +1,60 @@
-
+img{
+	width: 250px;
+	display: block;
+	margin: auto;
+}
+body{
+	background: url(https://i.pinimg.com/originals/e6/3c/5d/e63c5db0e2084c68f9646441ce10f87b.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*color: gradient;*/
+}
 input{
-	color: red;
-	font-family: 'Reggae One', cursive;
+	color: brown;
+border: 2px solid gold;
+font-family: 'Montserrat', sans-serif;
+margin: auto;
+border-radius: 50px;
 }
 button{
-	font-family: 'Reggae One', cursive;
-margin: 20px;
-size: 48px;
+	color: black;
+border: 2px solid gold;
+font-family: 'Montserrat', sans-serif;
+margin: 15px;
+display:inline-block;
+border-radius: 50px;
+background: white;
+}
+h2{
+font-family: 'Montserrat', sans-serif;
+	color:#ff9eba;
+	background-color: white;
+	/*width: 300px;*/
+	display: inline-block;
+	margin-left: 40px;
+	font-size: 50px;
+	background: rgba(205,214,219,0.3);
+	margin: auto;
+}
+h1{
+	width: 500px;
+	color: white;
+	text-shadow: 0 0 10px black;
+font-family: 'Montserrat', sans-serif;
+}
+p{
+font-family: 'Montserrat', sans-serif;
+	color:#00ffdd;
+}
+#In{
+	display: block;
 }
 form{
-	background-color: #FBBFFFFBB;
+	background-color: #FFFFFFBB;
 	backdrop-filter:blur(5px);
-}
-#tt{
-	display: block;
+	width: 90%;
+	max-width: 500px;
+	border-radius: 10px;
+	margin: auto;
+	text-align: center;
 }
