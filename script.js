@@ -1,4 +1,4 @@
-// import {ruswords} from "./words.js"
+import {ruswords} from "./words.js"
 let checkButton= document.getElementById('Check');
 let newButton= document.getElementById("New");
 let userInput= document.getElementById("In");
