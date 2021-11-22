@@ -1,0 +1,17 @@
+
+input{
+	color: red;
+	font-family: 'Reggae One', cursive;
+}
+button{
+	font-family: 'Reggae One', cursive;
+margin: 20px;
+size: 48px;
+}
+form{
+	background-color: #FBBFFFFBB;
+	backdrop-filter:blur(5px);
+}
+#tt{
+	display: block;
+}
