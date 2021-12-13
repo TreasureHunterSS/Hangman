@@ -1,18 +1,18 @@
-import {ruswords} from "./words.js"
+// import {ruswords} from "./words.js"
 let checkButton= document.getElementById('Check');
 let newButton= document.getElementById("New");
 let userInput= document.getElementById("In");
 let h1= document.getElementById("title")
 let words= ["собака" , "кошка" ,"олень"];
 // words=["нападающий"]
-words= ruswords;
+// words= ruswords;
 let secret= words[Math.floor(Math.random()*words.length)]
 let img= document.getElementById("img")
 let shifr= document.getElementById("shifr")
 let imgNumber=0;
 let p= document.getElementById("p")
 let letters="";
-shifr.innerHTML= "*".repeat(secret.length)
+shifr.innerHTML= "*".repeat(secret.length) 
 // userInput.focus()
 checkButton.onclick= function (event){
 	event.preventDefault();
@@ -50,8 +50,12 @@ checkButton.onclick= function (event){
     if (imgNumber==6) {
         checkButton.disabled= true;
         h1.innerHTML="ты проиграл! Сектретное слово:"+secret;
-    } 
-}
+    }
+    if  (imgNumber==5) {
+     h1.innerHTML="Виселица: ты на волоске от гибели" 
+    }
+    if (userInput.value==7) {
+       h1.innerHTML="Читыы:"+secret;
     }
         p.innerHTML="использованные буквы:"+" "+letters;
 	// console.log(userInput.value);
@@ -76,3 +80,5 @@ newButton.onclick=function (event){
     p.innerHTML="Правила игры: вводи букву и нажимай проверить"
     letters="";
   }
+// 
+// // h1.innerHTML+= "привет";
